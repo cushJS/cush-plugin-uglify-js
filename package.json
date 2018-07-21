@@ -1,0 +1,25 @@
+{
+  "name": "cush-plugin-uglify-js",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "description": "mishoo/UglifyJS2 for cush",
+  "repository": "cushJS/cush-plugin-uglify-js",
+  "scripts": {
+    "build": "coffee-build src -o lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@cush/uglify-js": "^3.4.2"
+  },
+  "devDependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.3.0",
+    "wch-coffee": "*"
+  },
+  "peerDependencies": {
+    "cush": "^0.2.0"
+  }
+}
