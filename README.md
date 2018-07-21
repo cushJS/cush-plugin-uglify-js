@@ -1,4 +1,4 @@
-# cush-plugin-uglify-js v0.0.1
+# cush-plugin-uglify-js v0.1.0
 
 Minify assets using [uglify-js](https://github.com/mishoo/UglifyJS2).
 
